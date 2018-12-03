@@ -2,12 +2,18 @@
 
 Based on https://github.com/srpraneeth/SpringsScala
 
+## Build & Test
+
+```
+./gradlew clean build
+```
+
 ## Run locally
 
 Run it with:
 
 ```
-./mvnw spring-boot:run
+./gradlew bootRun
 ```
 
 and test it with:
