@@ -2,7 +2,7 @@
 
 Based on https://github.com/srpraneeth/SpringsScala
 
-## Build & Test
+## Build & Test
 
 ```
 ./gradlew clean build
