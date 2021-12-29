@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/rogervinas/scala-java-spring.svg?branch=master)](https://travis-ci.com/rogervinas/scala-java-spring)
 
-# Scala in a Java Spring Project
+# Scala in a Java Spring Boot Project
 
 Based on https://github.com/srpraneeth/SpringsScala
 
