@@ -1,34 +1,22 @@
-buildscript {
-	ext {
-		springBootVersion = '2.1.1.RELEASE'
-	}
-	repositories {
-		mavenCentral()
-	}
-	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-	}
+plugins {
+    id 'org.springframework.boot' version '2.6.2'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+    id 'scala'
 }
-
-apply plugin: 'java'
-apply plugin: 'scala'
-apply plugin: 'idea'
-apply plugin: 'eclipse'
-apply plugin: 'org.springframework.boot'
-apply plugin: 'io.spring.dependency-management'
 
 group = 'com.foo'
 version = '1.0.0-SNAPSHOT'
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 
 dependencies {
-	implementation('org.springframework.boot:spring-boot-starter-web')
-	implementation('org.scala-lang:scala-library:2.11.12')
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation('org.scala-lang:scala-library:2.13.6')
 
-	testImplementation('org.springframework.boot:spring-boot-starter-test')
-	testImplementation('org.scalatest:scalatest_2.11:3.0.0')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testImplementation('org.scalatest:scalatest_2.11:3.2.9')
 }
