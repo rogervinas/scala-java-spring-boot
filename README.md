@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/rogervinas/scala-java-spring.svg?branch=master)](https://travis-ci.com/rogervinas/scala-java-spring)
+[![CI](https://github.com/rogervinas/scala-java-spring-boot/actions/workflows/gradle.yml/badge.svg?branch=master)](https://github.com/rogervinas/scala-java-spring-boot/actions/workflows/gradle.yml)
 
 # Scala in a Java Spring Boot Project
 
