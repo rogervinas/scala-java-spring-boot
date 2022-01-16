@@ -1,4 +1,5 @@
 [![CI](https://github.com/rogervinas/scala-java-spring-boot/actions/workflows/gradle.yml/badge.svg?branch=master)](https://github.com/rogervinas/scala-java-spring-boot/actions/workflows/gradle.yml)
+[![CodeQL](https://github.com/rogervinas/scala-java-spring-boot/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/rogervinas/scala-java-spring-boot/actions/workflows/codeql-analysis.yml)
 
 # Scala in a Java Spring Boot Project
 
