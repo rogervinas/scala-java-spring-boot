@@ -5,6 +5,8 @@
 
 Based on https://github.com/srpraneeth/SpringsScala
 
+![Diagram](doc/diagram.png)
+
 ## Build & Test
 
 ```
