@@ -23,7 +23,7 @@ dependencies {
 
   testImplementation("org.springframework.boot:spring-boot-starter-test")
 
-  testImplementation("org.scalatest:scalatest_3:3.2.17")
+  testImplementation("org.scalatest:scalatest_3:3.3.0-SNAP4")
   testRuntimeOnly("org.scalatestplus:junit-5-10_3:3.2.17.0")
 
   implementation(platform("org.junit:junit-bom:5.10.1"))
