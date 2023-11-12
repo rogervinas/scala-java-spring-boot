@@ -1,10 +1,7 @@
 package com.foo.service
 
-import org.junit.runner.RunWith
 import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatestplus.junit.JUnitRunner
 
-@RunWith(classOf[JUnitRunner])
 class HelloServiceSpec extends AnyFlatSpec {
 
   val service = new HelloService()
