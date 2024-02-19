@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
   implementation("org.springframework.boot:spring-boot-starter-web")
-  implementation("org.scala-lang:scala3-library_3:3.3.1")
+  implementation("org.scala-lang:scala3-library_3:3.4.0")
 
   testImplementation("org.springframework.boot:spring-boot-starter-test")
 
