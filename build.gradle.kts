@@ -26,7 +26,7 @@ dependencies {
   testImplementation("org.scalatest:scalatest_3:3.2.19")
   testRuntimeOnly("org.scalatestplus:junit-5-10_3:3.2.19.0")
 
-  implementation(platform("org.junit:junit-bom:5.10.2"))
+  implementation(platform("org.junit:junit-bom:5.10.3"))
   testImplementation("org.junit.jupiter:junit-jupiter-api")
   testImplementation("org.junit.jupiter:junit-jupiter-params")
 }
