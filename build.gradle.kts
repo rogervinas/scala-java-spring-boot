@@ -19,14 +19,14 @@ repositories {
 
 dependencies {
   implementation("org.springframework.boot:spring-boot-starter-web")
-  implementation("org.scala-lang:scala3-library_3:3.4.2")
+  implementation("org.scala-lang:scala3-library_3:3.5.0")
 
   testImplementation("org.springframework.boot:spring-boot-starter-test")
 
   testImplementation("org.scalatest:scalatest_3:3.2.19")
   testRuntimeOnly("org.scalatestplus:junit-5-10_3:3.2.19.0")
 
-  implementation(platform("org.junit:junit-bom:5.10.3"))
+  implementation(platform("org.junit:junit-bom:5.11.0"))
   testImplementation("org.junit.jupiter:junit-jupiter-api")
   testImplementation("org.junit.jupiter:junit-jupiter-params")
 }
