@@ -1,7 +1,7 @@
 [![CI](https://github.com/rogervinas/scala-java-spring-boot/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/rogervinas/scala-java-spring-boot/actions/workflows/ci.yml)
 ![Java](https://img.shields.io/badge/Java-21-blue?labelColor=black)
 ![Scala](https://img.shields.io/badge/Scala3-3.6.1-blue?labelColor=black)
-![SpringBoot](https://img.shields.io/badge/SpringBoot-3.3.x-blue?labelColor=black)
+![SpringBoot](https://img.shields.io/badge/SpringBoot-3.x-blue?labelColor=black)
 
 # Scala in a Java Spring Boot Project
 
