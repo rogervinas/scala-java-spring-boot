@@ -4,7 +4,7 @@ import org.gradle.api.tasks.testing.logging.TestLogEvent.PASSED
 import org.gradle.api.tasks.testing.logging.TestLogEvent.SKIPPED
 
 plugins {
-  id("org.springframework.boot") version "3.4.2"
+  id("org.springframework.boot") version "3.4.3"
   id("io.spring.dependency-management") version "1.1.7"
   java
   scala
@@ -26,7 +26,7 @@ dependencies {
   testImplementation("org.scalatest:scalatest_3:3.2.19")
   testRuntimeOnly("org.scalatestplus:junit-5-10_3:3.2.19.1")
 
-  implementation(platform("org.junit:junit-bom:5.11.4"))
+  implementation(platform("org.junit:junit-bom:5.12.0"))
   testImplementation("org.junit.jupiter:junit-jupiter-api")
   testImplementation("org.junit.jupiter:junit-jupiter-params")
 }
