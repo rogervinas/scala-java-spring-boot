@@ -4,7 +4,7 @@ import org.gradle.api.tasks.testing.logging.TestLogEvent.PASSED
 import org.gradle.api.tasks.testing.logging.TestLogEvent.SKIPPED
 
 plugins {
-  id("org.springframework.boot") version "4.0.6"
+  id("org.springframework.boot") version "4.1.0"
   id("io.spring.dependency-management") version "1.1.7"
   java
   scala
@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
   implementation("org.springframework.boot:spring-boot-starter-web")
-  implementation("org.scala-lang:scala3-library_3:3.8.3")
+  implementation("org.scala-lang:scala3-library_3:3.8.4")
 
   testImplementation("org.springframework.boot:spring-boot-starter-test")
 
